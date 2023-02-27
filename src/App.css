@@ -1,0 +1,64 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ background-color: purple;
+}
+
+.Input{
+background-color: grey;
+margin: 50px auto;
+width: 500px;
+height:500px;
+padding: 20px;
+}
+
+.head{
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.change{
+  width:320px;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.btn{
+  width:50px;
+  background-color: purple;
+  padding:10px;
+  margin-left:8px;
+  border: none;
+}
+
+.button{
+  appearance: none;
+  border: none;
+  background-color: crimson;
+
+}
+
+.list{
+  list-style: none;
+  display: flex;
+padding:10px;
+background-color: white;
+margin:10px -8px;
+width:320px;
+justify-content: space-between;
+}
+
+.ulist{
+margin-bottom:20px;
+  padding:10px;
+}
